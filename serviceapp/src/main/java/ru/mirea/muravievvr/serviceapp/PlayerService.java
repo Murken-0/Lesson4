@@ -35,7 +35,7 @@ public class PlayerService extends Service {
                 .setSmallIcon(R.drawable.kish_teatr_demona2010)
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setStyle(new NotificationCompat.BigTextStyle()
-                .bigText("Король и Шут"))
+                .bigText("Король и Шут - Танец злобного гения"))
                 .setContentTitle("Music Player");
         int importance = NotificationManager.IMPORTANCE_DEFAULT;
         NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "Student Notification", importance);
